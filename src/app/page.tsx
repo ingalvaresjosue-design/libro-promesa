@@ -12,63 +12,75 @@ export default function Home() {
   return (
     <main className="bg-[#F7F1EA] text-[#4A3426] min-h-screen">
 
-      <section className="min-h-screen flex items-center bg-gradient-to-b from-[#F5E6D4] to-[#F7F1EA]">
-        <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
+      <section className="relative overflow-hidden bg-[#F6EFE6] min-h-screen flex items-center">
 
-          <div>
-            <p className="uppercase tracking-[0.3em] text-sm text-[#C9A063] mb-4">
-              Presentación oficial
-            </p>
+  <div className="absolute inset-0 opacity-20">
+    <img
+      src="/images/principal2.png"
+      alt="Fondo"
+      className="w-full h-full object-cover"
+    />
+  </div>
 
-            <h1 className="text-5xl lg:text-7xl leading-none font-serif text-[#1E3557]">
-              No soy
-              <br />
-              un error,
-            </h1>
+  <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
 
-            <p className="text-3xl italic mt-4 text-[#C08A7D]">
-              yo soy una promesa.
-            </p>
+    <div>
 
-            <p className="mt-8 text-lg leading-relaxed max-w-xl">
-              Una historia inspirada en Agar sobre identidad,
-              propósito y la voz de Dios sobre nuestra vida.
-            </p>
+      <div className="flex items-center gap-4 mb-8">
+        <div className="w-10 h-[1px] bg-[#C9A063]" />
 
-            <div className="mt-10 flex gap-4 flex-wrap">
-              <button className="bg-[#1E3557] text-white px-7 py-3 rounded-full">
-                Escuchar audios
-              </button>
+        <p className="uppercase tracking-[0.25em] text-sm text-[#A77C3B]">
+          No soy un error, yo soy una promesa
+        </p>
+      </div>
 
-              <button className="border border-[#C9A063] px-7 py-3 rounded-full">
-                Comprar libro
-              </button>
-            </div>
-          </div>
+      <h1 className="font-serif text-[#1E3557] text-5xl md:text-7xl leading-[0.95]">
+        Una historia
+        <br />
+        de Agar.
+      </h1>
 
-          <div className="flex justify-center">
-            <div className="bg-white rounded-[2rem] shadow-2xl p-6 max-w-sm">
+      <h2 className="font-serif text-[#B8893D] text-5xl md:text-7xl leading-[0.95] mt-4">
+        Y del Dios
+        <br />
+        que me ve.
+      </h2>
 
-              <div className="aspect-[3/4] rounded-[1.5rem] border border-[#E6E0D8] flex flex-col items-center justify-center text-center p-8">
+      <div className="flex items-center gap-4 my-10">
+        <div className="w-20 h-[1px] bg-[#C9A063]" />
+        <div className="w-3 h-3 rounded-full bg-[#C9A063]" />
+        <div className="w-20 h-[1px] bg-[#C9A063]" />
+      </div>
 
-                <h2 className="text-3xl font-serif text-[#1E3557] leading-tight">
-                  No soy un error,
-                  <br />
-                  yo soy una promesa
-                </h2>
+      <p className="text-[#2E2E2E] text-lg leading-9 max-w-xl">
+        Basado en una historia bíblica.
+        <br />
+        7 audios que te acompañarán
+        <br />
+        a ver tu vida con los ojos del alma.
+      </p>
 
-                <div className="w-24 h-24 rounded-full border border-[#C08A7D] mt-8"></div>
+      <button className="mt-10 bg-[#B8893D] hover:bg-[#9D7434] transition-all text-white px-8 py-5 rounded-xl text-lg tracking-wide shadow-lg">
+        ESCUCHA LOS 7 AUDIOS
+      </button>
 
-                <p className="mt-8 uppercase tracking-[0.2em] text-sm text-[#777]">
-                  Patricia Catalán
-                </p>
+    </div>
 
-              </div>
-            </div>
-          </div>
+    <div className="relative flex justify-center">
 
-        </div>
-      </section>
+      <div className="absolute bottom-0 w-[90%] h-20 bg-black/10 blur-3xl rounded-full" />
+
+      <img
+        src="/images/portada_libro.jpeg"
+        alt="Libro"
+        className="relative z-10 w-[85%] max-w-lg object-contain drop-shadow-2xl"
+      />
+
+    </div>
+
+  </div>
+
+</section>
 
       <section className="max-w-6xl mx-auto px-6 py-24 text-center">
 
