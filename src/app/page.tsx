@@ -1,32 +1,32 @@
 export default function Home() {
   const audios = [
-    "Vista por Dios",
-    "Cuando el rechazo no define tu identidad",
-    "Dios escucha tu voz",
-    "Del desierto al propósito",
-    "Dios renombra tu historia",
-    "La promesa que transforma",
-    "Yo soy una promesa",
+    "Veo tu aflicción",
+    "Te haré descendencia",
+    "Multiplicaré tu descendencia",
+    "Él te ve",
+    "Tú eres importante",
+    "Escuhaste mi voz",
+    "Tú eres una promesa",
   ];
 
   return (
     <main className="bg-[#F7F1EA] text-[#4A3426] min-h-screen">
 
-      <section className="relative overflow-hidden bg-[#F6EFE6] min-h-screen flex items-center">
+      <section className="relative overflow-hidden bg-[#F6EFE6] pt-8 pb-12">
 
   <div className="absolute inset-0 opacity-20">
     <img
-      src="/images/principal2.png"
+      src="/images/FONDO_PRINCIPAL.jpeg"
       alt="Fondo"
       className="w-full h-full object-cover"
     />
   </div>
 
-  <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
+  <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
 
     <div>
 
-      <div className="flex items-center gap-4 mb-8">
+      <div className="flex items-center gap-4 mb-6">
         <div className="w-10 h-[1px] bg-[#C9A063]" />
 
         <p className="uppercase tracking-[0.25em] text-sm text-[#A77C3B]">
@@ -34,19 +34,17 @@ export default function Home() {
         </p>
       </div>
 
-      <h1 className="font-serif text-[#1E3557] text-5xl md:text-7xl leading-[0.95]">
-        Una historia
-        <br />
-        de Agar.
-      </h1>
+      <h1 className="cormorant text-[#1E3557] text-5xl md:text-7xl leading-[0.95]">
+  Una historia de Agar
+</h1>
 
-      <h2 className="font-serif text-[#B8893D] text-5xl md:text-7xl leading-[0.95] mt-4">
+      <h2 className="cormorant text-[#B8893D] text-5xl md:text-7xl leading-[0.95] mt-4">
         Y del Dios
         <br />
         que me ve.
       </h2>
 
-      <div className="flex items-center gap-4 my-10">
+      <div className="flex items-center gap-4 my-6">
         <div className="w-20 h-[1px] bg-[#C9A063]" />
         <div className="w-3 h-3 rounded-full bg-[#C9A063]" />
         <div className="w-20 h-[1px] bg-[#C9A063]" />
@@ -60,9 +58,12 @@ export default function Home() {
         a ver tu vida con los ojos del alma.
       </p>
 
-      <button className="mt-10 bg-[#B8893D] hover:bg-[#9D7434] transition-all text-white px-8 py-5 rounded-xl text-lg tracking-wide shadow-lg">
-        ESCUCHA LOS 7 AUDIOS
-      </button>
+      <a
+  href="#audios"
+  className="inline-block mt-10 bg-[#B8893D] hover:bg-[#9D7434] transition-all text-white px-8 py-5 rounded-xl text-lg tracking-wide shadow-lg"
+>
+  ESCUCHA LOS 7 AUDIOS
+</a>
 
     </div>
 
@@ -71,10 +72,10 @@ export default function Home() {
       <div className="absolute bottom-0 w-[90%] h-20 bg-black/10 blur-3xl rounded-full" />
 
       <img
-        src="/images/portada_libro.jpeg"
-        alt="Libro"
-        className="relative z-10 w-[85%] max-w-lg object-contain drop-shadow-2xl"
-      />
+  src="/images/Libro_portada3.png"
+  alt="Libro"
+  className="relative z-10 w-[65%] lg:w-[75%] max-w-3xl object-contain drop-shadow-2xl"
+/>
 
     </div>
 
@@ -88,9 +89,9 @@ export default function Home() {
           Sobre el libro
         </p>
 
-        <h2 className="text-4xl lg:text-5xl font-serif text-[#1E3557] leading-tight">
-          Una historia que Dios convirtió en propósito
-        </h2>
+        <h2 className="cormorant text-4xl lg:text-5xl text-[#1E3557] leading-tight">
+  Una historia que Dios convirtió en propósito
+</h2>
 
         <p className="mt-8 text-lg leading-relaxed max-w-3xl mx-auto">
           Agar fue una mujer vista, rechazada y usada,
@@ -99,7 +100,62 @@ export default function Home() {
 
       </section>
 
-      <section className="bg-[#F3E9DE] py-24 px-6">
+<section className="bg-[#F7F1EA] py-24 px-6">
+
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-[0.9fr_1.1fr] gap-16 items-center">
+
+    <div className="order-2 lg:order-1">
+
+      <p className="uppercase tracking-[0.25em] text-sm text-[#C9A063] mb-6">
+        Autora
+      </p>
+
+      <h1 className="cormorant text-[#1E3557] text-5xl md:text-7xl leading-[0.95]">
+  Patricia
+  <br />
+  Catalán
+</h1>
+
+      <div className="flex items-center gap-4 mb-6">
+        <div className="w-20 h-[1px] bg-[#C9A063]" />
+        <div className="w-3 h-3 rounded-full bg-[#C9A063]" />
+        <div className="w-20 h-[1px] bg-[#C9A063]" />
+      </div>
+
+      <p className="text-xl leading-relaxed max-w-xl">
+        Escritora, comunicadora y mujer apasionada por llevar{" "}
+        <span className="text-[#B8893D]">
+          esperanza a través de historias
+        </span>{" "}
+        que nacen del corazón de Dios.
+      </p>
+
+      <button className="mt-10 border border-[#B8893D] text-[#B8893D] px-8 py-4 rounded-xl hover:bg-[#B8893D] hover:text-white transition-all">
+        CONOCE MÁS SOBRE MÍ
+      </button>
+
+    </div>
+
+    <div className="order-1 lg:order-2">
+
+      <img
+        src="/images/Patricia_photo2.png"
+        alt="Patricia Catalán"
+        className="w-full rounded-[2rem] shadow-2xl"
+      />
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+      <section
+  id="audios"
+  className="bg-[#F3E9DE] py-24 px-6"
+>
 
         <div className="max-w-7xl mx-auto text-center">
 
@@ -107,9 +163,9 @@ export default function Home() {
             Los 7 audios
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-serif text-[#1E3557]">
-            Escucha los capítulos del libro
-          </h2>
+          <h2 className="cormorant text-4xl lg:text-5xl text-[#1E3557]">
+  Escucha los capítulos del libro
+</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
 
@@ -145,9 +201,9 @@ export default function Home() {
 
       <section className="py-24 px-6 text-center">
 
-        <p className="text-4xl lg:text-6xl font-serif italic text-[#4A3426]">
-          “Tú eres el Dios que me ve.”
-        </p>
+        <p className="cormorant text-4xl lg:text-6xl italic text-[#4A3426]">
+  “Tú eres el Dios que me ve.”
+</p>
 
         <p className="mt-6 uppercase tracking-[0.3em] text-[#C9A063]">
           Génesis 16:13
